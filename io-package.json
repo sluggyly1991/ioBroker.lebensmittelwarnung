@@ -1,0 +1,85 @@
+{
+	"common": {
+		"name": "lebensmittelwarnung",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Lebensmittelwarnung",
+		"titleLang": {
+			"en": "Lebensmittelwarnung",
+			"de": "Lebensmittelwarnung",
+			"ru": "Lebensmittelwarnung",
+			"pt": "Lebensmittelwarnung",
+			"nl": "Lebensmittelwarnung",
+			"fr": "Lebensmittelwarnung",
+			"it": "Lebensmittelwarnung",
+			"es": "Lebensmittelwarnung",
+			"pl": "Lebensmittelwarnung",
+			"zh-cn": "Lebensmittelwarnung"
+		},
+		"desc": {
+			"en": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"de": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"ru": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"pt": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"nl": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"fr": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"it": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"es": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"pl": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+			"zh-cn": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz"
+		},
+		"authors": [
+			"Sebastian Siepmann <sebastiansiepmann91@gmail.com>"
+		],
+		"keywords": [
+			"lebensmittel",
+			"food",
+			"warning"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "lebensmittelwarnung.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/sluggyly1991/ioBroker.lebensmittelwarnung/main/admin/lebensmittelwarnung.png",
+		"readme": "https://github.com/sluggyly1991/ioBroker.lebensmittelwarnung/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "misc-data",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"update_interval": "60",
+		"states": "item1"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

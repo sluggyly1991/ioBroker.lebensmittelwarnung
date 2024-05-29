@@ -1,0 +1,116 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "lebensmittelwarnung",
+	"title": "Lebensmittelwarnung",
+	"description": "Liefert Lebensmittelwarnungen des Bundesministeriums für Verbraucherschutz",
+	"keywords": [
+		"lebensmittel",
+		"food",
+		"warning"
+	],
+	"contributors": "",
+	"authorName": "Sebastian Siepmann",
+	"authorGithub": "sluggyly1991",
+	"authorEmail": "sebastiansiepmann91@gmail.com",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "misc-data",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "update_interval",
+			"label": "Update Intervall",
+			"inputType": "number",
+			"defaultValue": "60"
+		},
+		{
+			"key": "states",
+			"label": "Bundesländer",
+			"inputType": "select",
+			"options": [
+				{
+					"text": "Baden-Württemberg",
+					"value": "Baden-Württemberg"
+				},
+				{
+					"text": "Bayern",
+					"value": "Bayern"
+				},
+				{
+					"text": "Berlin",
+					"value": "Berlin"
+				},
+				{
+					"text": "Brandenburg",
+					"value": "Brandenburg"
+				},
+				{
+					"text": "Bremen",
+					"value": "Bremen"
+				},
+				{
+					"text": "Hamburg",
+					"value": "Hamburg"
+				},
+				{
+					"text": "Hessen",
+					"value": "Hessen"
+				},
+				{
+					"text": "Mecklenburg-Vorpommern",
+					"value": "Mecklenburg-Vorpommern"
+				},
+				{
+					"text": "Niedersachsen",
+					"value": "Niedersachsen"
+				},
+				{
+					"text": "Nordrhein-Westfalen",
+					"value": "Nordrhein-Westfalen"
+				},
+				{
+					"text": "Rheinland-Pfalz",
+					"value": "Rheinland-Pfalz"
+				},
+				{
+					"text": "Saarland",
+					"value": "Saarland"
+				},
+				{
+					"text": "Sachsen",
+					"value": "Sachsen"
+				},
+				{
+					"text": "Sachsen-Anhalt",
+					"value": "Sachsen-Anhalt"
+				},
+				{
+					"text": "Schleswig-Holstein",
+					"value": "Schleswig-Holstein"
+				},
+				{
+					"text": "Thüringen",
+					"value": "Thüringen"
+				}
+			],
+			"defaultValue": "item1"
+		}
+	],
+	"language": "JavaScript",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "single",
+	"tools": [
+		"ESLint"
+	],
+	"license": "MIT License",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
